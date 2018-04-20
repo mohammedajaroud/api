@@ -1,0 +1,54 @@
+ textarea { 
+      /* will prevent resizing horizontally */
+      resize:vertical;
+      max-height:300px;
+      min-height:120px;
+    }
+    
+   .jumbotron {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+   }
+  
+  .btn_insert {
+    margin-top: 5px;
+  }
+
+  option[default] {
+   display: none;
+  }
+
+  select:invalid { 
+    color: gray; 
+   }
+
+   textarea.form-control {
+    height: auto;
+    margin-top: 3px;
+  }
+
+  .tabs {
+    background-color: #F8F8F8;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    border-color: #e7e7e7;
+  }
+
+  .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #dcdcdc;
+    border: 0px solid #ddd;
+    border-bottom-color: transparent;
+  }
+
+  .nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 0px solid transparent;
+    border-radius: 0px 0px 0 0;
+  }
+  
+
